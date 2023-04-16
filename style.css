@@ -1,0 +1,62 @@
+body{
+    background: #CED4DA;
+}
+.muñeco{
+    position: absolute;
+    float: right;
+    border: 0px;
+    border-radius: 10px;
+    background: #ececec;
+    
+}
+.encriptar{
+    position: absolute;
+}
+
+.mensaje{
+    width: 100px;
+    background: #ececec;
+    margin: 0 0 0 3em;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+.boton-encriptar{
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px 50px;
+    display: inline-block;
+    margin: 10px 0 0 20em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background: orange;
+}
+
+.boton-encriptar:hover{
+    background: darkorange;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.boton-desencriptar{
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px 50px;
+    display: inline-block;
+    margin: 0 0 0 10em;
+    text-transform: uppercase;
+    color: black;
+    background: orange;
+    font-weight: bold;
+}
+
+.boton-desencriptar:hover{
+    background: darkorange;
+    transition: 1s;
+        cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+}
