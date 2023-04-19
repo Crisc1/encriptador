@@ -1,5 +1,5 @@
 body{
-   background: #CED4DA;
+   background: #F3F5FC;
    font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,18 +11,37 @@ body{
 
 .muñeco{
     position: absolute;
-    top:1em;
+    top: 0.2cm;
     left: 62em;
-    padding: 2cm 0px 6cm 0px;
+    padding: 5em 0cm 6.5cm 0cm;
     border-radius: 20px;
-    background: #ADB5BD;
+    background: white;
+    box-shadow: 0px 4px 32px -13px ;
+}
+
+.desencriptar-vacio{
+    position: absolute;
+    text-align: center;
+    left: 65em;
+    bottom: 14em;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.sugerencia{
+    position: absolute;
+    text-align: center;
+    left: 61em;
+    bottom: 11em;
+    font-weight: bold;
 }
 
 .texto-encriptado{
-    background: #CED4DA;
+    background: #F3F5FC;
     position: absolute;
-    top:3.5em;
-    left: 6em;
+    top:3em;
+    left: 5em;
     border-radius: 10px;
     border:none;
     padding: 10px 10px 10px 10px;
@@ -48,47 +67,80 @@ body{
 
 .boton-encriptar{
     position: absolute;
-    left: 15em;
+    left: 20em;
     bottom: 0.8cm;
     font-size: 15px;
-    text-transform: uppercase;
     color: rgb(206, 195, 195);
-    background: #868E96;
+    background: #0A3871;
     font-weight: bold;
-    padding: 10px 40px 10px 40px;
-    border: 0px solid black;
-    border-radius: 50px;
-
+    padding: 15px 70px 15px 70px;
+    border: 0px solid #000000;
+    border-radius: 15px;
+    font-size: 12px;
 }
 
 .boton-desencriptar{
     position: absolute;
-    left: 37em;
+    left: 40em;
     bottom: 0.8cm;
     font-size: 15px;
     font-weight: bold;
-    text-transform: uppercase;
-    color:rgb(206, 195, 195);
-    background: #868E96;
-    padding: 10px 40px 10px 40px;
-    border: 0px solid black;
-    border-radius: 50px;
+    color:#0A3871;
+    background: #D8DFE8;
+    padding: 15px 70px 15px 70px;
+    border: 1px solid #0A3871;
+    border-radius: 15px;
+    font-size: 12px;
 }
 
-.boton-encriptar:hover, .boton-desencriptar:hover{
-    background:#495057;
+.boton-encriptar:hover{
+    background: #072a55;
     color: white;
     cursor:pointer;
-    border: 2px solid black;
+    border: 0px solid black;
     transition: 1s all;
 }
 
-.boton-encriptar:active, .boton-desencriptar:active{
-    background:#343A40;
+.boton-desencriptar:hover{
+    background:#bfc6ce;
+    color: #0A3871;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.boton-encriptar:active{
+    background:#031f42;
     color: white;
     cursor:pointer;
-    border: 2px solid black;
-    transition: 0s all;
+    border: 0px solid black;
+    transition: 1s all;
+}
+
+.boton-desencriptar:active{
+    background:#90979e;
+    color: #0A3871;
+    cursor:pointer;
+    border: 0px solid black;
+    transition: 1s all;
+}
+
+.exclamation-icon{
+    position: absolute;
+    text-align: center;
+    bottom: 88px;
+    left: 15em;
+    font-weight: bold;
+
+}
+
+.condiciones{
+    position: absolute;
+    text-align: center;
+    bottom: 90px;
+    left: 22em;
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
 }
 
 .copyright{
@@ -97,5 +149,6 @@ body{
     left: 60em;
     font-size: 10px;
     text-align: center;
-    color: #495057;
+    color: black;
+    font-weight: bold;
 }
